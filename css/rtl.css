@@ -1,0 +1,95 @@
+body {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.introduction-text h1 {
+  width: 60%;
+  max-width: 60%;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+.landing-page {
+  min-height: 100vh;
+  background-image: url(../imgs/1440x850\ -\ Copy.jpg);
+  /* background-size: cover; */
+  /* position: relative; */
+}
+.header-area .links.open {
+  right: 0;
+
+  text-align: right;
+}
+.intro-box .items {
+  flex-direction: row-reverse;
+}
+.header-area .links li {
+  margin-left: 10px;
+}
+.header-area .links a {
+  margin-right: 20px;
+}
+/* about us */
+.about .img img {
+  height: 100%;
+}
+.about .info .icon img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+/* about us*/
+
+/* ionvestment */
+
+/* investment*/
+
+/* carsoul */
+.owl-carousel {
+  direction: ltr;
+}
+
+/* Testimoial */
+.testimonials .arrows {
+  justify-content: flex-end;
+}
+.testimonials .info .info-pic img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+/* footer */
+
+/* footer */
+
+/* my own framework */
+
+.show span {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* my own framework */
+.owl-carousel a {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: right;
+  color: #000;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  font-size: 30px;
+  font-weight: 700;
+}
+/* responsive */
+.intro-box .items .item {
+  border-left: 2px solid #fff;
+  border-right: none;
+}
+
+@media (max-width: 551px) {
+  .intro-box .items .item {
+    border: none;
+  }
+}
+/* responsive */
+/* Scrooll UP */
+
+/* Scrooll UP */
