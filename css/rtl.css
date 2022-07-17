@@ -1,12 +1,17 @@
 body {
   font-family: 'Noto Kufi Arabic', sans-serif;
 }
-
+p {
+  line-height: 1.6;
+}
 .introduction-text h1 {
   width: 60%;
   max-width: 60%;
   padding-bottom: 20px;
   line-height: 1.5;
+}
+.introduction-text .btn-intro {
+  padding: 8px 80px 8px 80px;
 }
 .landing-page {
   min-height: 100vh;

@@ -33,6 +33,9 @@
     <title>jana website</title>
   </head>
   <body>
+    <span class="scrollup">
+      <i class="fas fa-angle-up"></i>
+    </span>
     <!-- Start Landing page -->
     <div class="landing-page">
       <div class="container">
@@ -47,7 +50,7 @@
               <li><a href="#" data-section=".services ">Services</a></li>
               <li><a href="#" data-section=".projects ">Projects</a></li>
               <li><a href="#" data-section=".contact ">Contact</a></li>
-              <a href="index.html" class="ar">Arabic</a>
+              <a href="index.html" class="ar">عربية</a>
             </ul>
             <button class="toggle-menu">
               <span></span>
@@ -327,8 +330,66 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: false,
+        margin: 20,
+        nav: true,
+        dots: true,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({
+        distance: '60px',
+        duration: 2500,
+        dalay: 400,
+      });
+      ScrollReveal().reveal('.introduction-text h1', {
+        delay: 500,
+        origin: 'top',
+      });
+      ScrollReveal().reveal('.introduction-text li', {
+        delay: 500,
+        origin: 'right',
+      });
+      ScrollReveal().reveal('.about .info', {
+        delay: 600,
+        origin: 'right',
+      });
+      ScrollReveal().reveal('.about .img', {
+        delay: 500,
+        origin: 'bottom',
+      });
+      ScrollReveal().reveal('.services .info', {
+        delay: 500,
+        origin: 'left',
+      });
+      ScrollReveal().reveal('.services .imgs', {
+        delay: 500,
+        origin: 'bottom',
+      });
+      ScrollReveal().reveal('.head-owl h1', {
+        delay: 600,
+        origin: 'top',
+      });
+      ScrollReveal().reveal('.footer .social', {
+        delay: 700,
+        origin: 'top',
+      });
+    </script>
   </body>
 </html>
