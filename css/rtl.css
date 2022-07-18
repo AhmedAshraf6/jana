@@ -83,6 +83,15 @@ p {
   font-size: 30px;
   font-weight: 700;
 }
+@media (max-width: 767px) {
+
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel .owl-nav button.owl-prev {
+ 
+    font-size: 15px;
+  }
+
+}
 /* responsive */
 .intro-box .items .item {
   border-left: 2px solid #fff;
