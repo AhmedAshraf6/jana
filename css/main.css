@@ -352,6 +352,7 @@ h3 {
 .services .info p {
   font-size: 25px;
   text-align: start;
+  line-height:1.4;
 }
 .services .imgs {
   display: grid;
